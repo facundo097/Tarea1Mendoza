@@ -1,10 +1,7 @@
-import random, sys
-import os 
+import random
+
 
 def random_f():
-	x=random.randint(0,100)
-	y=random.randint(0,50)
-	z=0
-	return x-y
-
-
+    x = random.randint(0, 100)
+    y = random.randint(0, 50)
+    return x - y
